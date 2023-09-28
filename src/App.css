@@ -1,3 +1,5 @@
+
+
 /* App.css */
 body {
     font-family: Arial, sans-serif;
@@ -39,7 +41,6 @@ body {
   
   li {
     margin: 8px 0;
-    display: flex;
     align-items: center;
   }
   
@@ -61,5 +62,18 @@ body {
     padding: 4px;
     font-size: 14px;
     border: 1px solid #ccc;
+  }
+
+  .list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+    width: 100%;
+    background-color: #4caf50;
+  }
+
+  .list-item-btns{
+
   }
   
